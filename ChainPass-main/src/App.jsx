@@ -20,7 +20,7 @@ function App() {
             <Route path="/buy" element={<BuyTicket />} />
             {/* <Route path="/mint" element={<MintTicket />} /> */}
             {/* <Route path="/check" element={<CheckAccess />} /> */}
-            <Route path="/Upcoming" element={<Upcoming />} />
+            <Route path="/upcoming" element={<Upcoming />} />
             {/* <Route path="/admin" element={<AdminPanel />} /> */}
             <Route path="/mytickets" element={<MyTickets />} />
           </Routes>
