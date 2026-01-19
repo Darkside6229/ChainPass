@@ -126,9 +126,9 @@ const BuyTicket = ({ selectedEvent, onPurchaseComplete }) => {
                     min="0.01"
                     value={amount}
                     onChange={(e) => setAmount(e.target.value)}
-                    className="w-full px-4 py-3 bg-gray-800/50 border border-red-900/30 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+                    className="w-full px-4 py-3 bg-gray-800/50 border border-red-900/30 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600 pr-12"
                   />
-                  <div className="absolute right-3 top-3 text-gray-400">ETH</div>
+                  <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-300 font-semibold">ETH</div>
                 </div>
               </motion.div>
 
